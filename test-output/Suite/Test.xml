@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="asklap" name="SaleniumHeadless.SaleniumHeadless.Headless" tests="1" failures="1" timestamp="16 Oct 2018 02:48:47 GMT" time="14.328" errors="0">
+  <testcase name="f" time="14.228" classname="SaleniumHeadless.SaleniumHeadless.Headless">
+    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: Element &amp;lt;button class=&amp;quot;btn btn-default bb-search&amp;quot; qa=&amp;quot;searchBtn&amp;quot; ng-click=&amp;quot;vm.userManualSearch()&amp;quot; type=&amp;quot;submit&amp;quot;&amp;gt;...&amp;lt;/button&amp;gt; is not clickable at point (971, 101). Other element would receive the click: &amp;lt;div modal-render=&amp;quot;true&amp;quot; tabindex=&amp;quot;-1&amp;quot; role=&amp;quot;dialog&amp;quot; class=&amp;quot;modal fade ng-isolate-scope signup-modal in&amp;quot; uib-modal-animation-class=&amp;quot;fade&amp;quot; modal-in-class=&amp;quot;in&amp;quot; ng-style=&amp;quot;{&amp;apos;z-index&amp;apos;: 1050 + index*10, display: &amp;apos;block&amp;apos;}&amp;quot; uib-modal-window=&amp;quot;modal-window&amp;quot; window-class=&amp;quot;signup-modal&amp;quot; index=&amp;quot;0&amp;quot; animate=&amp;quot;animate&amp;quot; modal-animation=&amp;quot;true&amp;quot; style=&amp;quot;z-index: 1050; display: block;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 571 milliseconds
+Build info: version: &amp;apos;2.48.2&amp;apos;, revision: &amp;apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&amp;apos;, time: &amp;apos;2015-10-09 13:08:06&amp;apos;
+System info: host: &amp;apos;asklap&amp;apos;, ip: &amp;apos;192.168.1.148&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:40616}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\askumar\AppData\Local\Temp\scoped_dir26576_5866}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a638ac53b923f402287c39e97b072acf">
+      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-default bb-search" qa="searchBtn" ng-click="vm.userManualSearch()" type="submit">...</button> is not clickable at point (971, 101). Other element would receive the click: <div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope signup-modal in" uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1050 + index*10, display: 'block'}" uib-modal-window="modal-window" window-class="signup-modal" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 571 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'asklap', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:40616}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\askumar\AppData\Local\Temp\scoped_dir26576_5866}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a638ac53b923f402287c39e97b072acf
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at SaleniumHeadless.SaleniumHeadless.Headless.f(Headless.java:44)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
